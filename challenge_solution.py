@@ -33,6 +33,7 @@ def get_transactions(endpoint, starting_block, ending_block):
     transactions = [] #List for temporary storage of data
 
     for block_num in range(starting_block, ending_block + 1):
+        print(block_num)#Readding this diagnostic print because it seemed like the application was hanging otherwise
         payload["params"] = [hex(block_num), True] #Params value modified here
         response = requests.post(endpoint, json=payload)
         if response.status_code == 200:
