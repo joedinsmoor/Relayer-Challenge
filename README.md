@@ -4,7 +4,7 @@ My solution to the technical challenge for Relayer
 
 
 Usage: 
-```$ python tech_challenge.py https://rpc.quicknode.pro/$YOURAPIKEY db.sqlite3 200-300```
+```$ python challenge_solution.py https://rpc.quicknode.pro/$YOURAPIKEY db.sqlite3 200-300```
 
 
 ## Some explanation around my thought processes in certain spots:
